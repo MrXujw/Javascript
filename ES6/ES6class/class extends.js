@@ -65,7 +65,7 @@ b.m(); //2
 //这里实际上执行的时super.print.call(this)
 
 //static method
-class Parentt{
+class Parent{
     static myMethod(msg){
         console.log('static', msg);
     }
